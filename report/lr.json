@@ -1,0 +1,140 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-11-11T15:19:26.647Z",
+        "line": 3,
+        "name": "To Click shop men",
+        "description": "",
+        "id": "limeroad-order;to-click-shop-men",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9066238700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User launch the url \"https://www.limeroad.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.limeroad.com/\"",
+                  "offset": 20
+                }
+              ],
+              "location": "Step_definition.user_launch_the_url(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7606281800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User clicks on Shop men",
+            "match": {
+              "location": "Step_definition.user_clicks_on_Shop_men()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5295938500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on men module",
+            "match": {
+              "location": "Step_definition.user_clicks_on_men_module()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6488057700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User select on T-shirts submodule",
+            "match": {
+              "location": "Step_definition.user_select_on_T_shirts_submodule()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5272127000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on selected T-shirt",
+            "match": {
+              "location": "Step_definition.user_select_on_clicks_on_selected_T_shirt()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5144209800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User select on size",
+            "match": {
+              "location": "Step_definition.user_select_on_size()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 203622400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User clicks on Add to cart button",
+            "match": {
+              "location": "Step_definition.user_clicks_on_Add_to_cart_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1519100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User close the browser",
+            "match": {
+              "location": "Step_definition.user_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoketest"
+          }
+        ]
+      }
+    ],
+    "name": "Limeroad Order",
+    "description": "",
+    "id": "limeroad-order",
+    "keyword": "Feature",
+    "uri": "file:/C:/Users/Gayu/eclipse-workspace/Lime_Road/src/test/java/com/feature/lime.feature",
+    "tags": [
+      {
+        "name": "@Smoketest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
