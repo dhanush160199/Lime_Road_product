@@ -26,16 +26,11 @@ public class Login extends Methods{
 	@FindBy(xpath="//div[text()='ADD TO CART']")
 	private WebElement addtocart;
 	
-	@FindBy(xpath="//div[text()='ADD TO CART']")
-	private WebElement Proceed;
+	
 	
 			
 	public WebElement getT_shirts() {
 		return t_shirts;
-	}
-
-	public WebElement getProduct() {
-		return product;
 	}
 
 	public WebElement getSelectsize() {
@@ -54,5 +49,5 @@ public class Login extends Methods{
 		return men;
 	}
 
-	
+	//Test Elements
 }
