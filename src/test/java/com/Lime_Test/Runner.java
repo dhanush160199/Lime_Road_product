@@ -19,6 +19,7 @@ import io.cucumber.junit.CucumberOptions;
                  plugin= {"pretty",
                 		  "json:report/lr.json",
                 		  "html:report/cucumber"}
+                		 // "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
                  )
 public class Runner extends Methods {//4.8.0
 	@BeforeClass	 

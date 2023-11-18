@@ -29,6 +29,11 @@ public class Login extends Methods{
 	
 	
 			
+	public WebElement getProduct() {
+		return product;
+	}
+
+
 	public WebElement getT_shirts() {
 		return t_shirts;
 	}
@@ -48,6 +53,7 @@ public class Login extends Methods{
 	public WebElement getMen() {
 		return men;
 	}
+
 
 	//Test Elements
 }
