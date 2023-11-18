@@ -49,7 +49,8 @@ public void user_clicks_on_Add_to_cart_button() {
 		  click(l.getAddtocart());
 		}
 @And("User close the browser")
-public void user_close_the_browser() {   
+public void user_close_the_browser() {  
+	closemethod();
 		}
 		
 		
